@@ -18,6 +18,9 @@ while True:
     povtor = input('Хотите задать еще один вопрос: да/нет?' )
     if povtor == "да" or povtor == "Да" or povtor == "ДА":
         choice()
-    else:
+    elif povtor == "нет" or povtor == "Нет" or povtor == "НЕТ":
         print('Возвращайся если возникнут вопросы!')
         break
+    else:
+        print('Ты подбхунный что ли, читай внимательно и пиши только "да" или "нет"')
+        continue
